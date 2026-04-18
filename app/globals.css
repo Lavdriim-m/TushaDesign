@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 40 20% 98%;
+  --foreground: 0 0% 10%;
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 10%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 10%;
+  --primary: 36 42% 61%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 36 20% 94%;
+  --secondary-foreground: 0 0% 10%;
+  --muted: 36 15% 95%;
+  --muted-foreground: 0 0% 45%;
+  --accent: 36 42% 61%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 36 15% 88%;
+  --input: 36 15% 88%;
+  --ring: 36 42% 61%;
+  --radius: 0.125rem;
+  --chart-1: 36 42% 61%;
+  --chart-2: 173 58% 39%;
+  --chart-3: 197 37% 24%;
+  --chart-4: 43 74% 66%;
+  --chart-5: 27 87% 67%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', var(--font-inter), sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #FAF8F5;
+    color: #1A1A1A;
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-family: 'Playfair Display', var(--font-playfair), Georgia, serif;
+    letter-spacing: -0.02em;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: 'Playfair Display', var(--font-playfair), Georgia, serif;
+  }
+
+  .text-gold {
+    color: #C9A96E;
+  }
+
+  .bg-gold {
+    background-color: #C9A96E;
+  }
+
+  .border-gold {
+    border-color: #C9A96E;
+  }
+
+  .bg-charcoal {
+    background-color: #1A1A1A;
+  }
+
+  .bg-warm-white {
+    background-color: #FAF8F5;
+  }
+
+  .bg-warm-beige {
+    background-color: #EDE8E0;
+  }
+
+  .text-charcoal {
+    color: #1A1A1A;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C9A96E;
+  border-radius: 2px;
+}
