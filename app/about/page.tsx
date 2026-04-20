@@ -89,13 +89,13 @@ export default function AboutPage() {
             <AnimatedSection direction="left">
               <GoldDivider className="mb-8" />
               <h2 className="font-display text-4xl md:text-5xl font-light mb-8">
-                Two Decades of
+                Close to a Decade of
                 <br />
                 <em>Exceptional Craft</em>
               </h2>
               <div className="space-y-5 font-body text-sm leading-relaxed text-neutral-600">
                 <p>
-                  TushaDesign was founded in 2003 by Elias Tusha, a designer who believed that the
+                  TushaDesign was founded in 2018 by Shabi Tusha, a designer who believed that the
                   kitchen — as the heart of the home — deserved the same level of care and craft
                   that a master architect brings to a landmark building.
                 </p>

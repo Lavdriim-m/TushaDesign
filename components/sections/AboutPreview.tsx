@@ -5,9 +5,8 @@ import AnimatedSection from '@/components/shared/AnimatedSection';
 import GoldDivider from '@/components/shared/GoldDivider';
 
 const stats = [
-  { value: '20+', label: 'Years of Craft' },
+  { value: '8+', label: 'Years of Craft' },
   { value: '340+', label: 'Projects Completed' },
-  { value: '14', label: 'Industry Awards' },
 ];
 
 export default function AboutPreview() {
@@ -44,7 +43,7 @@ export default function AboutPreview() {
               Precision
             </h2>
             <p className="font-body text-sm leading-relaxed text-neutral-600 mb-4">
-              For over two decades, TushaDesign has been creating kitchens that transcend function
+              Since 2018, TushaDesign has been creating kitchens that transcend function
               to become the defining spaces of exceptional homes. Every project begins with a simple
               belief: the kitchen is the heart of the home, and it deserves to be extraordinary.
             </p>

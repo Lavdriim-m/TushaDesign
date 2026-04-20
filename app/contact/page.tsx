@@ -25,8 +25,8 @@ const contactInfo = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'studio@tushadesign.com',
-    href: 'mailto:studio@tushadesign.com',
+    value: 'info@tushadesign.com',
+    href: 'mailto:info@tushadesign.com',
   },
   {
     icon: MapPin,
@@ -184,10 +184,10 @@ export default function ContactPage() {
                         style={inputStyle}
                       >
                         <option value="">Select range</option>
-                        <option>$50,000 – $100,000</option>
-                        <option>$100,000 – $200,000</option>
-                        <option>$200,000 – $400,000</option>
-                        <option>$400,000+</option>
+                        <option>$5,000 – $7,000</option>
+                        <option>$7,000 – $10,000</option>
+                        <option>$10,000 – $15,000</option>
+                        <option>$15,000+</option>
                         <option>To be discussed</option>
                       </select>
                     </div>
