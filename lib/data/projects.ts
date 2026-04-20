@@ -22,7 +22,7 @@ export const projects: Project[] = [
     title: 'Alpine Residence',
     subtitle: 'A masterpiece of warm minimalism',
     category: 'Minimalist',
-    location: 'Aspen, Colorado',
+    location: 'Gazi Baba, Skopje',
     year: '2024',
     style: 'Warm Minimalist',
     materials: ['Calacatta Marble', 'Brushed Brass', 'Smoked Oak', 'Matte White Lacquer'],
