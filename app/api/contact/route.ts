@@ -11,7 +11,7 @@ export async function POST(request: Request) {
   }
 
   const { error } = await resend.emails.send({
-    from: 'TushaDesign Contact <onboarding@resend.dev>',
+    from: 'TushaDesign Contact <contact@tushadesign.com>',
     to: 'info@tushadesign.com',
     replyTo: email,
     subject: `New Enquiry from ${name}`,
