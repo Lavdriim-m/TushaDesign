@@ -34,22 +34,22 @@ const values = [
 
 const team = [
   {
-    name: 'Elias Tusha',
+    name: 'Shabi Tusha',
     title: 'Founder & Creative Director',
     image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
-    bio: 'With over two decades in bespoke kitchen design, Elias founded TushaDesign on a single belief: the kitchen is the soul of the home and deserves to be extraordinary.',
+    bio: 'With years of hands-on experience in kitchen design and manufacturing, Shabi founded TushaDesign with a clear vision: to create kitchens that combine functionality, quality, and modern design. His approach focuses on delivering practical solutions while maintaining a strong attention to detail in every project.',
   },
   {
-    name: 'Marina Voss',
-    title: 'Head of Design',
+    name: 'Xhemal Tusha',
+    title: 'Head of Design & Master Craftsman',
     image: 'https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400',
-    bio: 'A graduate of the Architectural Association, Marina brings architectural rigour and intuitive spatial thinking to every project she leads.',
+    bio: 'Xhemal brings a deep understanding of design and craftsmanship to every project. With a strong eye for detail and functionality, he ensures that each kitchen is carefully planned and executed to meet both aesthetic and practical needs.',
   },
   {
-    name: 'Thomas Rauch',
+    name: 'Halim Alimi',
     title: 'Master Craftsman',
     image: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=400',
-    bio: 'Third-generation cabinetmaker Thomas oversees all manufacturing, ensuring that every piece that leaves our atelier meets the standards set by generations of craft.',
+    bio: 'Halim is responsible for overseeing the production process, ensuring that every kitchen is built with precision and consistency. His focus on quality control guarantees that each project meets the standards of durability and craftsmanship.',
   },
 ];
 
@@ -95,26 +95,16 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-5 font-body text-sm leading-relaxed text-neutral-600">
                 <p>
-                  TushaDesign was founded in 2018 by Shabi Tusha, a designer who believed that the
-                  kitchen — as the heart of the home — deserved the same level of care and craft
-                  that a master architect brings to a landmark building.
+                  TushaDesign was founded in 2018 by Shabi Tusha, with a clear vision: the kitchen — as the heart of the home — deserves thoughtful design, precision, and lasting quality.
                 </p>
                 <p>
-                  What began as a one-man design studio has grown into a world-class atelier of 60
-                  craftspeople, designers, and installation specialists. Yet our founding principle
-                  remains unchanged: every kitchen we create is a singular work, designed from
-                  first principles, built by hand, and installed with care.
+                  What began as a small workshop has grown into a dedicated team of craftsmen and installers, focused on delivering kitchens that combine functionality with modern aesthetics. Every project is carefully designed, produced in-house, and installed with attention to detail.
                 </p>
                 <p>
-                  We have completed over 340 projects across North America, Europe, and beyond —
-                  from alpine retreats to Manhattan penthouses, from coastal estates to urban
-                  townhouses. Each one is different. Each one is exceptional.
+                  We have completed numerous projects across North Macedonia and Kosovo, ranging from private residences to modern apartments and custom interiors. Each project is tailored to the client’s needs, ensuring a balance between design, practicality, and durability.
                 </p>
                 <p>
-                  Our 12,000 square foot manufacturing facility houses both traditional hand-tool
-                  benches and state-of-the-art CNC technology. This marriage of craft and
-                  precision is what allows us to realize designs of extraordinary complexity and
-                  beauty.
+                  Our workshop combines traditional craftsmanship with modern production tools, allowing us to deliver consistent quality and efficient execution. This approach enables us to create kitchens that are both visually refined and built to last.
                 </p>
               </div>
             </AnimatedSection>
@@ -230,7 +220,7 @@ export default function AboutPage() {
               Every great kitchen begins with a conversation. Tell us about your vision.
             </p>
             <GoldButton href="/contact" variant="gold">
-              Book a Consultation
+              Book a Free Consultation
             </GoldButton>
           </AnimatedSection>
         </div>

@@ -102,7 +102,7 @@ export const services: Service[] = [
       'Our dedicated installation teams carry our standards of excellence from the workshop to your home — treating every project as if it were their own.',
     longDescription:
       'The installation phase is where years of planning and craftsmanship are finally revealed. Our in-house installation teams are trained to the same standards as our craftspeople. They work meticulously, protecting your home and communicating clearly throughout the process.',
-    image: 'https://images.pexels.com/photos/3935353/pexels-photo-3935353.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: 'https://images.pexels.com/photos/5691502/pexels-photo-5691502.jpeg',
     icon: 'Wrench',
     steps: [
       {
@@ -135,9 +135,9 @@ export const services: Service[] = [
 
 export const whyChooseUs = [
   {
-    title: 'Two Decades of Mastery',
+    title: '8+ Years of Expertise',
     description:
-      'Over 20 years of creating exceptional kitchens for discerning clients across the world.',
+      'Over 8 years of delivering refined kitchen solutions defined by precision, quality, and timeless design.',
   },
   {
     title: 'In-House Everything',

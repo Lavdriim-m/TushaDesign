@@ -19,8 +19,8 @@ const contactInfo = [
   {
     icon: Phone,
     label: 'Phone',
-    value: '+1 (212) 555-0147',
-    href: 'tel:+12125550147',
+    value: '+389 70 797 238',
+    href: 'tel:+38970797238',
   },
   {
     icon: Mail,
@@ -30,8 +30,8 @@ const contactInfo = [
   },
   {
     icon: MapPin,
-    label: 'Atelier',
-    value: '158 West 27th Street, New York, NY 10001',
+    label: 'Location',
+    value: 'Shuto Orizari, Skopje, North Macedonia',
     href: '#map',
   },
 ];
@@ -79,7 +79,7 @@ export default function ContactPage() {
             </h1>
             <p className="font-body text-base text-neutral-500 leading-relaxed">
               Every extraordinary kitchen begins with a conversation. Share your vision and one of our
-              senior designers will be in touch within 24 hours.
+              team members will be in touch within 24 hours.
             </p>
           </AnimatedSection>
         </div>
@@ -281,7 +281,7 @@ export default function ContactPage() {
 
       <section id="map" className="h-96 relative bg-neutral-200">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.3257627855424!2d-73.99652492346428!3d40.74812037138969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a4d2df7d5d%3A0x62f5d1b7e4a7c7ef!2s158+W+27th+St%2C+New+York%2C+NY+10001!5e0!3m2!1sen!2sus!4v1703000000000!5m2!1sen!2sus"
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1324.9157530912698!2d21.424915146048892!3d42.028453820382104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDLCsDAxJzQyLjYiTiAyMcKwMjUnMzIuNyJF!5e1!3m2!1sen!2smk!4v1777416263591!5m2!1sen!2smk"
           width="100%"
           height="100%"
           style={{ border: 0, filter: 'grayscale(0.3) contrast(0.9)' }}

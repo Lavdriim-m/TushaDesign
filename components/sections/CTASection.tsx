@@ -19,7 +19,7 @@ export default function CTASection() {
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
         <AnimatedSection className="max-w-2xl">
           <span className="text-xs tracking-[0.3em] uppercase font-body mb-6 block" style={{ color: '#C9A96E' }}>
-            Begin Your Journey
+            Book a Free Consultation
           </span>
           <h2 className="font-display text-5xl md:text-6xl font-light text-white mb-6 leading-tight">
             Your Dream Kitchen
@@ -32,7 +32,7 @@ export default function CTASection() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <GoldButton href="/contact" variant="gold">
-              Book a Consultation
+              Book a Free Consultation
             </GoldButton>
             <GoldButton href="/projects" variant="outline-light" showArrow={false}>
               View Our Work

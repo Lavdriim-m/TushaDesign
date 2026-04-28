@@ -10,45 +10,45 @@ export type Testimonial = {
 export const testimonials: Testimonial[] = [
   {
     id: '1',
-    name: 'Catherine Whitmore',
-    title: 'Homeowner',
-    location: 'Aspen, Colorado',
+    name: 'Artan Krasniqi',
+    title: 'Villa Owner',
+    location: 'Mavrovo, North Macedonia',
     quote:
-      'TushaDesign transformed our mountain home with a kitchen that exceeded every expectation. The attention to detail — from the hand-selected marble to the perfectly weighted drawer pulls — is extraordinary. It is not just a kitchen; it is the heart of our home.',
+      'TushaDesign transformed our villa with a kitchen that exceeded every expectation. The attention to detail from the hand-selected marble to the perfectly weighted drawer pulls is extraordinary. It is not just a kitchen; it is the heart of our home.',
     project: 'Alpine Residence',
   },
   {
     id: '2',
-    name: 'James & Priya Harrington',
+    name: 'Aleksandar & Marija Petrovski',
     title: 'Homeowners',
-    location: 'New York City',
+    location: 'Skopje, North Macedonia',
     quote:
-      'We interviewed six design firms before choosing TushaDesign. Within minutes of our first meeting, it was clear they understood not just what we wanted, but why we wanted it. The result is a kitchen that feels entirely ours — and entirely extraordinary.',
+      'We interviewed three design firms before choosing TushaDesign. Within minutes of our first meeting, it was clear they understood not just what we wanted, but why we wanted it. The result is a kitchen that feels entirely ours and entirely extraordinary.',
     project: 'Metropolitan Penthouse',
   },
   {
     id: '3',
-    name: 'Alexandra Fontaine',
+    name: 'Ana Dimitrovska',
     title: 'Interior Architect',
-    location: 'The Hamptons',
+    location: 'Skopje, North Macedonia',
     quote:
       'As an architect, I have exacting standards. TushaDesign is the only kitchen manufacturer I recommend to my most demanding clients. Their ability to realize complex designs without compromise is simply unmatched in the industry.',
     project: 'Coastal Retreat',
   },
   {
     id: '4',
-    name: 'Robert Davenport',
+    name: 'Lavdrim Mustafi',
     title: 'Property Developer',
-    location: 'Greenwich, CT',
+    location: 'Kumanovo, North Macedonia',
     quote:
       'I have commissioned TushaDesign for four projects now. Each one has elevated the property value and set the standard for luxury in its market. They deliver on time, on budget, and above expectation — every single time.',
     project: 'Heritage Manor',
   },
   {
     id: '5',
-    name: 'Sophia Bellini',
+    name: 'Marija Nikolovska',
     title: 'Homeowner',
-    location: 'Beverly Hills, CA',
+    location: 'Ohrid, North Macedonia',
     quote:
       'The kitchen TushaDesign created for us is without question the most beautiful room in our home. Every guest who visits remarks on it. It has become a gathering place, a source of pride, and a daily pleasure.',
     project: 'Beverly Hills Estate',
