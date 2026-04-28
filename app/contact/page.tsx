@@ -47,6 +47,7 @@ export default function ContactPage() {
   });
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
@@ -55,9 +56,23 @@ export default function ContactPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
-    await new Promise((r) => setTimeout(r, 1200));
-    setLoading(false);
-    setSubmitted(true);
+    setError(null);
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+      if (!res.ok) {
+        const data = await res.json();
+        throw new Error(data.error || 'Something went wrong. Please try again.');
+      }
+      setSubmitted(true);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Something went wrong. Please try again.');
+    } finally {
+      setLoading(false);
+    }
   };
 
   const inputClass = "w-full bg-transparent border-b py-4 font-body text-sm text-neutral-800 placeholder-neutral-400 focus:outline-none transition-colors duration-300 focus:border-neutral-800";
@@ -208,6 +223,10 @@ export default function ContactPage() {
                       style={inputStyle}
                     />
                   </div>
+
+                  {error && (
+                    <p className="font-body text-sm text-red-500">{error}</p>
+                  )}
 
                   <button
                     type="submit"
